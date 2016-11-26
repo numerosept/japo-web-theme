@@ -9,6 +9,12 @@
 	],
 "creatorBuild": "25444",
 "files": {
+	"\/.gitignore": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
 	"\/404.php": {
 		"ft": 8192,
 		"oA": 0,
@@ -120,12 +126,6 @@
 		"oAP": "\/assets\/css\/style.min-min.css",
 		"oF": 0,
 		"oS": 0
-		},
-	"\/assets\/css\/style.min.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/css\/style.min.css.map",
-		"oF": 0
 		},
 	"\/assets\/functions\/admin.php": {
 		"ft": 8192,
@@ -468,9 +468,9 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/style.css",
-		"oF": 0,
-		"oS": 0,
+		"oAP": "\/assets\/css\/style.min.css",
+		"oF": 3,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/assets\/translation\/da_DK.po": {
@@ -903,6 +903,16 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/style-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/style.min.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/style.min-min.css",
 		"oF": 0,
 		"oS": 0
 		},
