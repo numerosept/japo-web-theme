@@ -18,6 +18,9 @@
 	</div>
 	</div> <!-- end article header -->
 
+
+<div class="row">
+		<div class="small-12">
 					
     <section class="entry-content" itemprop="articleBody">
 	    <?php the_content(); ?>
@@ -27,7 +30,7 @@
 	<footer class="article-footer">
 		
 	</footer> <!-- end article footer -->
-						    
-	<?php comments_template(); ?>
+
+		</div></div>					    
 					
 </article> <!-- end article -->
