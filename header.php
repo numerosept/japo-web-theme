@@ -55,7 +55,7 @@
 					<span class="menu_trigger menu_link">
 					<a><span>Menu</span></a>
 					</span>
-					<h1 class="logo"><a href="<?php echo get_home_url();?>"><img src="<?php echo get_template_directory_uri() ?>/assets/images/japo_texte_2016.png"></a></h1>
+					<h1 class="logo-home"><a href="<?php echo get_home_url();?>"><img src="<?php echo get_template_directory_uri() ?>/assets/images/japo_texte_2016.png"></a></h1>
 					<span class="contact_trigger contact_link">
 					<a><span>Contact</span></a>
 					</span>
