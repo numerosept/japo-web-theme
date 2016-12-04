@@ -63,6 +63,7 @@ jQuery('.nav_image').click(function(){
 	jQuery('body').toggleClass("expand-menu");jQuery ('html').css('overflow', 'visible');}});
 	
 
+/*
 jQuery(function($) {
     $(document).scroll(function () {
         var y = $(this).scrollTop();
@@ -74,6 +75,7 @@ jQuery(function($) {
 
     });
 });
+*/
 //on supprime cette classe lorsque l'on ferme le menu
 
 /*

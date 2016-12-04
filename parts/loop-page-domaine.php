@@ -5,13 +5,13 @@
 		  		<div class="column small-12 align-self-bottom">
 			  		<div class="row">
 				  		<div class="show-for-medium large-2 columns">
-				  	<h1 class="logo-page"><a href="<?php echo get_home_url();?>"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logoJaquierPointet.jpg"></a></h1>
+<!-- 				  	<h1 class="logo-page"><a href="<?php echo get_home_url();?>"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logoJaquierPointet.jpg"></a></h1> -->
 	
 				  		</div>  		
 			  		</div>
-	  		<div class="row">
-		  		<div class="small-10 large-10 columns">
-		  		<h1 class="page-title"><span class="nos-competences">Nos activités</span> <?php the_title(); ?></h1>
+	  		<div class="row titre_logo">
+		  		<div class="small-10 large-12 columns">
+		  		<h1 class="page-title"><span class="nos-competences">Nos activités</span> <?php the_title(); ?><a href="<?php echo get_home_url();?>"><img src="<?php echo get_template_directory_uri() ?>/assets/images/logoJaquierPointet.png"></a></h1>
 				</div>
 			</div>
   		</div>

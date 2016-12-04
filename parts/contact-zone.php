@@ -6,12 +6,13 @@
 <h5> Notre adresse</h5>
 <div class="small-12">
 <ul class="adresse">
-
 	<li><b>JAQUIER POINTET S.A.</b></li>
 	<li>Rue des Pêcheurs 7</li>
-	<li>1400 Yverdon-les-Bains, Suisse</li>
-	</ul>
-	
+	<li>Case postale</li>
+	<li>1401 Yverdon-les-Bains, Suisse</li>
+</ul>
+<p class="phone">Tél. 024 424 60 70</p>
+<p class="fax">Fax 024 424 60 71 </p>	
 </div>
 </div>
 <div class="small-12">

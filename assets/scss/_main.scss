@@ -234,7 +234,12 @@ border-bottom-left-radius: 10px;
     opacity: 1;
 }
 
+//éléments de menu
 
+#menu-menu-principal{margin-top:1em;
+	text-transform: uppercase;
+	
+}
 
 //links bas de nav 
 
@@ -301,21 +306,33 @@ box-shadow: 1px 0px 6px 0px rgba(0,0,0,0.35);
 .contact_inner{
 	
 .adresse{
-	line-height: 1.3;
-	margin-left: 0;
-	list-style: none;
-	li{margin-left:1em;
-		&:first-of-type {
-	&:before{font-family: 'fontawesome';content:'\f041';padding-right: .5em;
-		margin-left:-1em;
-		color:$rougejapo;
+		line-height: 1.3;
+		margin-left: 0;
+		margin-bottom:.3em;
+		list-style: none;
+			li{margin-left:1em;
+			&:first-of-type {
+				&:before{font-family: 'fontawesome';content:'\f041';padding-right: .5em;
+				margin-left:-1em;
+				color:$rougejapo;}
+			line-height: 1.2}
+			}
 	}
-	line-height: 1.2}
 
-		
+.phone {
+	margin-left:1em;
+	&:before{font-family: 'fontawesome';content:'\f095';padding-right: .5em;
+				margin-left:-1em;
+				color:$rougejapo;}
 	}
-	
+.fax {
+	margin-bottom:1em;
+	margin-left:1em;
+	&:before{font-family: 'fontawesome';content:'\f1ac';padding-right: .5em;
+				margin-left:-1em;
+				color:$rougejapo;}
 	}
+
 	
 h4, h5{
 	&:first-of-type{padding-top:1em;}
@@ -355,6 +372,7 @@ transform: translatex(0)
 
 .gmap-legend {
 		background: $vertjapo;
+		margin-bottom:1em;
 	small{
 	padding:.3em;
 	color:$white;
@@ -497,6 +515,14 @@ NAVIGATION STYLES
 /***************************
 	PAGE DOMAINE
 **************************/
+.titre_logo{img{
+display: inline-block;
+height: 60px;
+padding-left: 20px;
+padding-bottom: 10px;
+/* padding: auto; */
+vertical-align: middle;}}
+
 .nos-competences{color:$white; font-size: rem-calc(26); text-transform: uppercase;}
 
 h1.logo-page{margin-bottom:0;}
@@ -515,7 +541,8 @@ border-top-left-radius: 10px;
 
  .page-template-domaine, .page-template-template-full-width
  		header{
-	 	.logo{display:none;}}
+	 	.logo{display:none;}
+	 	}
 	 	
 	 	
 	 	.entry-content{
