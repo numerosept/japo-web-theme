@@ -40,7 +40,9 @@
 			<div class="nav_inner text-center">
 						<h1 class="logo text-center"><a href="<?php echo get_home_url();?>"><img src="<?php echo get_template_directory_uri() ?>/assets/images/japo_texte_2016.png"></a></h1>
 				<?php joints_off_canvas_nav(); ?>
-				<div class="links">adf</div>	
+				<div class="nav-inner-sublinks menu-centered">
+				<?php joints_off_canvas_subnav(); ?>	
+				</div>	
 			</div>
 			
 		</div>

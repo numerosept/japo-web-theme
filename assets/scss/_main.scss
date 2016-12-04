@@ -8,6 +8,10 @@ Stylesheet: Main Stylesheet
 GENERAL STYLES
 *********************/
 
+*:focus {
+    outline: none;
+}
+
 /*********************
 LINK STYLES
 *********************/
@@ -189,11 +193,31 @@ opacity: 1}
 
 
 .nav_inner{ 
-	.logo{border:none !important;
-		img{max-width: 90%;
-}
+		.logo{
+			border:none !important;
+			img{max-width: 90%;}
+		}
+		.nav-inner-sublinks{
+			border-top:1px solid $vertjapo;
+			margin-top:1em;
+			li.ftp_link a:before{font-family: 'icomoon';content:'\e900';margin-right:.4em}
+			li.geo_link a:before{font-family: 'icomoon';content:'\e901';margin-right:.4em;/* Safari */
+-webkit-transform: rotate(90deg);
+
+/* Firefox */
+-moz-transform: rotate(90deg);
+
+/* IE */
+-ms-transform: rotate(90deg);
+
+/* Opera */
+-o-transform: rotate(90deg);
+
+/* Internet Explorer */
+filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 			}
-	
+
+			}
 box-sizing: border-box;
 width: 100%;
 height: 100%;

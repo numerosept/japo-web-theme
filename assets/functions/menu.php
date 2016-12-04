@@ -2,7 +2,8 @@
 // Register menus
 register_nav_menus(
 	array(
-		'main-nav' => __( 'The Main Menu', 'jointswp' ),   // Main nav in header
+		'main-nav' => __( 'Le menu principal', 'jointswp' ),   // Main nav in header
+		'main-subnav' => __( 'le menu secondaire', 'jointswp' ),   // secondary nav in header
 		'footer-links' => __( 'Footer Links', 'jointswp' ) // Secondary nav in footer
 	)
 );
@@ -40,6 +41,19 @@ function joints_off_canvas_nav() {
         'walker' => new Off_Canvas_Menu_Walker()
     ));
 } 
+
+function joints_off_canvas_subnav() {
+	 wp_nav_menu(array(
+        'container' => false,                           // Remove nav container
+        'menu_class' => 'horizontal menu',       // Adding custom nav class
+        'items_wrap' => '<ul id="%1$s" class="%2$s" data-accordion-menu>%3$s</ul>',
+        'theme_location' => 'main-subnav',        			// Where it's located in the theme
+        'depth' => 5,                                   // Limit the depth of the nav
+        'fallback_cb' => false,                         // Fallback function (see below)
+        'walker' => new Off_Canvas_Menu_Walker()
+    ));
+} 
+
 
 class Off_Canvas_Menu_Walker extends Walker_Nav_Menu {
     function start_lvl(&$output, $depth = 0, $args = Array() ) {

@@ -59,4 +59,14 @@ CSS3 GRADIENTS.
 	background-image: linear-gradient(to bottom, $from, $to);
 }
 
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?35x0t3');
+  src:  url('../fonts/icomoon.eot?35x0t3#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?35x0t3') format('truetype'),
+    url('../fonts/icomoon.woff?35x0t3') format('woff'),
+    url('../fonts/icomoon.svg?35x0t3#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
 
